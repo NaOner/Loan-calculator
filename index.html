@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<div id="main-area">
+    <label class="input-label">
+        K = Loan amount:
+        <input id="loan-amount" type="number">
+    </label>
+    <br/>
+    <label class="input-label">
+        r = Annual interest rate
+        <input id="annual-interest-rate" type="number">
+    </label>
+    <br/>
+    <label class="input-label">
+        n = Number of repayment months
+        <input id="number-of-repayment-months" type="number">
+    </label>
+    <br/>
+    <button id="calculate-button">Calculate</button>
+    <div id="result-area">
+        Your monthly payment is: <span id="monthly-payment-result"></span>
+    </div>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
